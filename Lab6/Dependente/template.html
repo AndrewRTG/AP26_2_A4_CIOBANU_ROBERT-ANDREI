@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Raport Filme</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+<h2>Raport: Toate filmele din baza de date</h2>
+<table>
+    <tr>
+        <th>Titlu</th>
+        <th>Data Lansării</th>
+        <th>Durată (min)</th>
+        <th>Scor</th>
+        <th>Gen</th>
+        <th>Actori</th>
+    </tr>
+    {{ROWS}}
+</table>
+</body>
+</html>

@@ -1,7 +1,10 @@
 package org.example.maze.model;
 
-public class Cell {
+import java.awt.event.ActionListener;
+import java.io.Serializable;
+public class Cell implements Serializable {
     private int row, col;
+    private static final long serialVersionUID = 1L;
     private boolean wallTop = true;
     private boolean wallRight = true;
     private boolean wallBottom = true;

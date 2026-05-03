@@ -9,6 +9,7 @@ public class Cell implements Serializable {
     private boolean wallRight = true;
     private boolean wallBottom = true;
     private boolean wallLeft = true;
+    private boolean occupied = false;
 
     public Cell(int row, int col) {
         this.row = row;
@@ -24,4 +25,6 @@ public class Cell implements Serializable {
     public void setWallRight(boolean wallRight) { this.wallRight = wallRight; }
     public void setWallBottom(boolean wallBottom) { this.wallBottom = wallBottom; }
     public void setWallLeft(boolean wallLeft) { this.wallLeft = wallLeft; }
+    public boolean isOccupied() {return occupied; }
+    public void setOccupied(boolean occupied) {this.occupied = occupied; }
 }

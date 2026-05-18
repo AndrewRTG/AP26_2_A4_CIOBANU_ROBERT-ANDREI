@@ -1,0 +1,20 @@
+QUESTION: What is the capital of Romania?
+A: Bucharest
+B: Cluj-Napoca
+C: Iasi
+D: Timisoara
+ANSWER: A
+
+QUESTION: Which protocol is connection-based?
+A: UDP
+B: TCP
+C: IP
+D: DNS
+ANSWER: B
+
+QUESTION: What Java class is used to create a TCP server?
+A: Socket
+B: ServerSocket
+C: Scanner
+D: PrintWriter
+ANSWER: B
